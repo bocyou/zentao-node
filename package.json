@@ -1,0 +1,30 @@
+{
+  "name": "zentao-node",
+  "version": "1.0.0",
+  "description": "zentao node version",
+  "main": "index.js",
+  "scripts": {
+    "babel-node": "babel-node script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.5.2",
+    "css-loader": "^0.23.1",
+    "koa": "^1.1.2",
+    "log4js": "^0.6.31",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.14"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}
