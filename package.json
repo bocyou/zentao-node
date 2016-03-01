@@ -4,6 +4,7 @@
   "description": "zentao node version",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon index.js",
     "babel-node": "babel-node script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +15,8 @@
     "css-loader": "^0.23.1",
     "koa": "^1.1.2",
     "log4js": "^0.6.31",
+    "mysql": "^2.10.2",
+    "nodemon": "^1.9.1",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.14"
   },
